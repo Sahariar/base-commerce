@@ -12,6 +12,7 @@ class AdminController extends Controller
         return 'Admin Dashboard';
     }
     public function dashboard(){
-        return 'Admin Area Dashboard';
+
+        return view('dashboard.index');
     }
 }
